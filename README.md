@@ -1,16 +1,23 @@
-# employee_clock_app
+# 🕒 Employee Attendance Clock App (Flutter + Firebase)
 
-A new Flutter project.
+A mobile app for employees to clock in and out of work based on their **location**, built using **Flutter** and **Firebase**. Ideal for remote, field, or office-based teams needing reliable attendance tracking.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- 🧑‍💼 Employee login via email/password
+- 📍 Location-based clock-in & clock-out
+- 🕒 Real-time timestamp logging
+- 📊 Attendance history view for each employee
+- 🔔 Status feedback (success/failure based on geolocation)
+- 🔐 Secure Firebase Authentication
+- ☁️ Cloud Firestore for real-time data storage
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Frontend**: Flutter (Dart)
+- **Backend**: Firebase (Authentication, Firestore, and Location services)
+- **Location**: `geolocator`, `location`, or similar Flutter plugins
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+
+
